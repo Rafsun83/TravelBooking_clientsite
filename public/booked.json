@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Hotel Seabeach",
+        "description": "This is laxaruious hotel in cox's bazar",
+        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Hotel kolatoli",
+        "description": "confort zone  hotel in this area",
+        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Hotel symon",
+        "description": "VIP hotel in Cox's bazar",
+        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Hotel silver zone",
+        "description": "Silver zone is the best hotel in cox's bazar",
+        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Hotel golf beach",
+        "description": "This hotel is the best and better service provide",
+        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Hotel baluchor",
+        "description": "hotel baluchor is the biggest hotel in ",
+        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+    }
+]
