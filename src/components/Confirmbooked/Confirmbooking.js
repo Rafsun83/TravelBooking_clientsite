@@ -42,7 +42,7 @@ const Confirmbooking = () => {
                     {errors.email && <span>This field is required</span>}
                     <input placeholder="Adress" {...register("Adress",)} />
                     <input placeholder="City" {...register("City",)} />
-                    <input placeholder="Phone number" {...register("phone number",)} />
+                    <input placeholder="Phone number" {...register("phone")} />
 
                     <input type="submit" />
                 </form>
