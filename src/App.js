@@ -14,6 +14,8 @@ import Addservice from './components/Addservice/Addservice';
 import MyOrder from './components/Order/MyOrder';
 import Myorders from './components/Myorder/Myorders';
 import Pagenotfound from './components/Notfoundpage/Pagenotfound';
+import Traveloffer from './components/Offer/Traveloffer';
+
 
 
 
@@ -33,10 +35,10 @@ function App() {
               <Home></Home>
 
             </Route>
-            <Route path="/addservice">
+            <PrivateRoute path="/addservice">
               <Addservice></Addservice>
 
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
@@ -46,12 +48,16 @@ function App() {
             <PrivateRoute path="/confirm/:bokkingId">
               <Confirmbooking></Confirmbooking>
             </PrivateRoute>
-            <Route path="/myorder">
+            <PrivateRoute path="/myorder">
               <MyOrder></MyOrder>
-            </Route>
+            </PrivateRoute>
             <Route path="/myorders">
               <Myorders></Myorders>
             </Route>
+            <Route path="/offer">
+              <Traveloffer></Traveloffer>
+            </Route>
+
             <Route exact path="*">
               <Pagenotfound></Pagenotfound>
             </Route>
