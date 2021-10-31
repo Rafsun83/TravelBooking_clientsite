@@ -15,7 +15,7 @@ const Bokking = () => {
 
             <h3 className="text-primary mt-5 text-center mb-5">This is Our Service</h3>
 
-            <div div className="travel-booked m-5" >
+            <div className="travel-booked m-5" >
                 {
                     booking.map(booked => <Booked
                         key={booked.id}
