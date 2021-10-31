@@ -11,6 +11,8 @@ import Bokking from './components/Booking/Booking/Bokking';
 import Confirmbooking from './components/Confirmbooked/Confirmbooking';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import Addservice from './components/Addservice/Addservice';
+import MyOrder from './components/Order/MyOrder';
+import Myorders from './components/Myorder/Myorders';
 
 
 
@@ -40,9 +42,15 @@ function App() {
             <Route path="/booking">
               <Bokking></Bokking>
             </Route>
-            <PrivateRoute path="/confirm">
+            <PrivateRoute path="/confirm/:bokkingId">
               <Confirmbooking></Confirmbooking>
             </PrivateRoute>
+            <Route path="/myorder">
+              <MyOrder></MyOrder>
+            </Route>
+            <Route path="/myorders">
+              <Myorders></Myorders>
+            </Route>
 
 
 

@@ -8,7 +8,7 @@ import '../Booked/travel.css'
 
 
 const Booked = ({ users }) => {
-    const { name, description, img } = users
+    const { _id, name, description, img } = users
 
     return (
         <div>
@@ -16,7 +16,7 @@ const Booked = ({ users }) => {
                 <img src={img} alt="" />
                 <h3>{name}</h3>
                 <p>{description}</p>
-                <Link to="/confirm">
+                <Link to={`/confirm/${_id}`}>
                     <Button>Booking</Button>
                 </Link>
             </div>

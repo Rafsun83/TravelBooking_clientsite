@@ -1,0 +1,14 @@
+.myorders{
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 20px;
+    width:40%;
+    background-color: gainsboro;
+    
+}
+.total_orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

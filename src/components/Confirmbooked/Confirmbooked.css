@@ -1,0 +1,22 @@
+.Shipping-info{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+ 
+ 
+}
+.Shipping-form{
+    display: inline-grid;
+    gap: 10px;
+    width: 20%;
+
+    
+}
+.Shipping-form input{
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+
+}
