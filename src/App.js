@@ -15,6 +15,7 @@ import MyOrder from './components/Order/MyOrder';
 import Myorders from './components/Myorder/Myorders';
 import Pagenotfound from './components/Notfoundpage/Pagenotfound';
 import Traveloffer from './components/Offer/Traveloffer';
+import Updatedorder from './components/Update/Updatedorder';
 
 
 
@@ -56,6 +57,9 @@ function App() {
             </Route>
             <Route path="/offer">
               <Traveloffer></Traveloffer>
+            </Route>
+            <Route path="/update/:bokkingId">
+              <Updatedorder></Updatedorder>
             </Route>
 
             <Route exact path="*">

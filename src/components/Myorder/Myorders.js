@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import '../Myorder/Myorders.css'
 
 
@@ -26,6 +27,11 @@ const Myorders = ({ order }) => {
             })
 
     }
+
+
+
+
+
     return (
         <div className="total_orders">
             <div className="myorders">
@@ -35,7 +41,10 @@ const Myorders = ({ order }) => {
                 <p> <strong>Name:</strong> {name}</p>
                 <p> <strong>Adress:</strong> {Adress}</p>
                 <p> <strong>Phone:</strong> {phone}</p>
-                <Button onClick={() => handledelete(_id)} variant="danger">Delete order</Button>
+                <Button onClick={() => handledelete(_id)} variant="danger" className="p-2">Delete order</Button>
+                <Link to={`/update/${_id}`}>
+                    <Button >Update</Button>
+                </Link>
             </div>
 
         </div>
