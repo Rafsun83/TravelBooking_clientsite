@@ -5,7 +5,7 @@ import '../Myorder/Myorders.css'
 
 
 const Myorders = ({ order }) => {
-    const { _id, name, bookedId, Adress } = order
+    const { _id, name, bookedId, Adress, phone } = order
     // const [Order, setOrder] = useState();
 
     // Delete an
@@ -34,6 +34,7 @@ const Myorders = ({ order }) => {
                 <p><strong>BookedId:</strong> {bookedId}</p>
                 <p> <strong>Name:</strong> {name}</p>
                 <p> <strong>Adress:</strong> {Adress}</p>
+                <p> <strong>Phone:</strong> {phone}</p>
                 <Button onClick={() => handledelete(_id)} variant="danger">Delete order</Button>
             </div>
 
