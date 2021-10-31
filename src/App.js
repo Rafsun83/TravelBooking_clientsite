@@ -13,6 +13,7 @@ import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import Addservice from './components/Addservice/Addservice';
 import MyOrder from './components/Order/MyOrder';
 import Myorders from './components/Myorder/Myorders';
+import Pagenotfound from './components/Notfoundpage/Pagenotfound';
 
 
 
@@ -50,6 +51,9 @@ function App() {
             </Route>
             <Route path="/myorders">
               <Myorders></Myorders>
+            </Route>
+            <Route exact path="*">
+              <Pagenotfound></Pagenotfound>
             </Route>
 
 

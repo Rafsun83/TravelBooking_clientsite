@@ -9,7 +9,7 @@ const Confirmbooking = () => {
     const { bokkingId } = useParams()
     const [service, setSerevice] = useState({})
     useEffect(() => {
-        fetch(`http://localhost:5000/booked/${bokkingId}`)
+        fetch(`https://dreadful-cat-40414.herokuapp.com/booked/${bokkingId}`)
             .then(res => res.json())
             .then(data => setSerevice(data))
     }, [bokkingId])
@@ -19,7 +19,7 @@ const Confirmbooking = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('http://localhost:5000/bookedOrder', data)
+        axios.post('https://dreadful-cat-40414.herokuapp.com/bookedOrder', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added sucessfully')
