@@ -7,7 +7,7 @@ const Banner = () => {
             <Carousel>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-fluid"
                         src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
                         alt="First slide"
                     />
@@ -18,7 +18,7 @@ const Banner = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-fluid"
                         src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
                         alt="Second slide"
                     />
@@ -30,7 +30,7 @@ const Banner = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-fluid"
                         src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
                         alt="Third slide"
                     />
